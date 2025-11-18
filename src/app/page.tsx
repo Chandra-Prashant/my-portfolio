@@ -30,7 +30,7 @@ const projectData = [
     techStack: ["Next.js", "Node.js", "FastAPI", "MongoDB", "PyTorch", "Vercel", "Render"],
     links: {
       live: "https://fittrack-monorepo.vercel.app", 
-      github: "https://github.com/Chandra-Prashant/FitTrack-AI"
+      github: "https://github.com/Chandra-Prashant/fittrack-monorepo"
     }
   },
   {
@@ -43,7 +43,7 @@ const projectData = [
     techStack: ["Machine Learning", "Explainable AI (XAI)", "FastAPI", "Docker", "Model Deployment", "Python", "Microservices"],
     links: {
       live: "https://xai-fraud-detection.vercel.app", 
-      github: "https://github.com/Chandra-Prashant/FitTrack-AI"
+      github: "https://github.com/Chandra-Prashant/xai-fraud-detection"
     }
   },
   {
