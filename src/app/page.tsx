@@ -55,7 +55,7 @@ const projectData = [
     ],
     techStack: ["Python", "OpenCV", "LBPH", "SQLite"],
     links: {
-      github: "https://github.com/Chandra-Prashant/Face-Recognition-Attendance"
+      github: "https://github.com/Chandra-Prashant/FaceAttendance"
     }
   }
 ];
