@@ -29,7 +29,20 @@ const projectData = [
     ],
     techStack: ["Next.js", "Node.js", "FastAPI", "MongoDB", "PyTorch", "Vercel", "Render"],
     links: {
-      live: "https://example.com", 
+      live: "https://fittrack-monorepo.vercel.app", 
+      github: "https://github.com/Chandra-Prashant/FitTrack-AI"
+    }
+  },
+  {
+    title: "Explainable AI (XAI) Fraud Detection System",
+    description: [
+      "Built a real-time fraud detection platform with SHAP-based feature explanations for transparent decision-making.",
+      "Designed a microservices architecture: Dockerized FastAPI model server + Next.js dashboard with SHAP visualizations.",
+      "Implemented dual-model inference (Random Forest + MLP) and deployed on Vercel/Render with strict Pydantic-TS contracts."
+    ],
+    techStack: ["Machine Learning", "Explainable AI (XAI)", "FastAPI", "Docker", "Model Deployment", "Python", "Microservices"],
+    links: {
+      live: "https://xai-fraud-detection.vercel.app", 
       github: "https://github.com/Chandra-Prashant/FitTrack-AI"
     }
   },
