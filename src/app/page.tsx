@@ -268,7 +268,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-4xl">
         {/* Topper Badge: The "IIT Signal" */}
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-900/30 border border-cyan-500/30 text-cyan-300 text-sm font-mono mb-6 backdrop-blur-sm">
-           <FiAward /> <span>District Topper (97%) & College Rank 1</span>
+           <FiAward /> <span>District Topper (97%) & Diploma Rank 1</span>
         </div>
 
         <p className="text-cyan-400 font-mono text-lg mb-4 tracking-wide">Hi, my name is</p>
