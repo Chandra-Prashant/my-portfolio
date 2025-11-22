@@ -91,7 +91,7 @@ const certificationsData = [
   {
     title: "Full Stack Web Development (MERN)",
     issuer: "Simplilearn",
-    date: "2024",
+    date: "2025",
     link: "https://simpli-web.app.link/e/V0c2gCUVaYb" 
   },
   {
