@@ -334,7 +334,7 @@ const AboutMeSection = () => {
             <FiBookOpen className="text-cyan-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div>
               <h4 className="font-semibold text-white">B.Tech, Computer Engineering</h4>
-              <p className="text-sm text-gray-400">AMU (2023-2027) | CGPA: 7.89</p>
+              <p className="text-sm text-gray-400">AMU (2023-2027) | CGPA: 7.87</p>
             </div>
           </div>
           <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-5 flex gap-4 items-start hover:border-cyan-500/30 transition-colors">
@@ -348,7 +348,7 @@ const AboutMeSection = () => {
           <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-5 flex gap-4 items-start hover:border-cyan-500/30 transition-colors">
             <FiAward className="text-cyan-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div>
-              <h4 className="font-semibold text-white">Senior Secondary (10th)</h4>
+              <h4 className="font-semibold text-white">Secondary (10th)</h4>
               <p className="text-sm text-gray-400">CBSE (2019-2020)</p>
               <p className="text-sm text-cyan-300 font-medium mt-1">🥇 District Topper (97%)</p>
             </div>
