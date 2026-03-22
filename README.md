@@ -45,8 +45,13 @@ This portfolio serves as a technical dossier for my candidacy for **MS in Comput
     cd my-portfolio
     npm install
     ```
-4. **Initalize Research Server**
+3. **Initalize Research Server**
    ```
     npm run dev
    ```
-6. **Access:**
+4. **Access:**
+   Navigate to http://localhost:3000 to view the live build.
+
+
+#🏛 About the Author
+Prashant Chandra Computer Engineering Student @ Aligarh Muslim University (AMU) Class of 2027 | Aspiring AI Systems Researcher
