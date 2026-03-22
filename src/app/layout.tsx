@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Prashant Chandra | AI Researcher & Systems Engineer",
   description: "Computer Science student at AMU (Class of 2027). Specializing in Explainable AI (XAI), Computer Vision, and Deep Learning for Medical Diagnostics.",
-  keywords: ["Machine Learning", "AI Researcher", "Explainable AI", "Computer Vision", "AMU CSE", "German MS Candidate"],
+  keywords: ["Machine Learning", "AI Researcher", "Explainable AI", "Computer Vision", "AMU CSE", "MS Candidate"],
 };
 
 export default function RootLayout({
