@@ -53,5 +53,5 @@ This portfolio serves as a technical dossier for my candidacy for **MS in Comput
    Navigate to http://localhost:3000 to view the live build.
 
 
-#🏛 About the Author
-Prashant Chandra Computer Engineering Student @ Aligarh Muslim University (AMU) Class of 2027 | Aspiring AI Systems Researcher
+# 🏛 About the Author
+**Prashant Chandra** Computer Engineering Student @ Aligarh Muslim University (AMU) Class of 2027 | Aspiring AI Systems Researcher
