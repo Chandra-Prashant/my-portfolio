@@ -225,7 +225,7 @@ export default function Home() {
                 My engineering philosophy centers on <b>transparency</b>. In an era of Black Box AI, I build systems that don&apos;t just predict, but explain their reasoning using tools like Grad-CAM.
               </p>
               <p>
-                As a student at <b>Aligarh Muslim University</b>, I have consistently balanced high-level academic performance with intense project-based learning. My goal is to apply this rigour to an <b>MS in Computer Science in Germany</b>.
+                As a student at <b>Aligarh Muslim University</b>, I have consistently balanced high-level academic performance with intense project-based learning. My goal is to apply this rigour to an <b>MS in Computer Science</b>.
               </p>
             </div>
             <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800">
