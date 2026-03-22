@@ -7,7 +7,7 @@ A high-performance, responsive portfolio designed to showcase research in **Expl
 ---
 
 ## 🎯 Academic & Professional Focus
-This portfolio serves as a technical dossier for my candidacy for **MS in Computer Science (Germany, 2027)**. It highlights my transition from Full-Stack Engineering to AI Research, focusing on:
+This portfolio serves as a technical dossier for my candidacy for **MS in Computer Science (2027)**. It highlights my transition from Full-Stack Engineering to AI Research, focusing on:
 * **Interpretability:** Implementing Grad-CAM and SHAP to deconstruct "Black Box" models.
 * **Inference Optimization:** Architecting FastAPI/Docker bridges for PyTorch model serving.
 * **Academic Excellence:** Featuring my background as **Diploma Rank 1** and **District Topper (97%)**.
