@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 // 1. UPDATED METADATA: Personalized for you
 export const metadata: Metadata = {
-  title: "Prashant Chandra - AI Full Stack Developer",
-  description: "Portfolio of a B.Tech CSE student specializing in AI and Full Stack Development.",
+  title: "Prashant Chandra - AI & Machine Learning Systems",
+  description: "Computer Science student specializing in Neural Networks, Computer Vision, and Data Engineering. Aspiring MS candidate for 2027.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body
         // 3. ADDED: "bg-gray-950 text-white" for the global dark theme
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-slate-50`}
       >
         {children}
       </body>
