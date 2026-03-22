@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// 1. UPDATED METADATA: Personalized for you
 export const metadata: Metadata = {
-  title: "Prashant Chandra - AI & Machine Learning Systems",
-  description: "Computer Science student specializing in Neural Networks, Computer Vision, and Data Engineering. Aspiring MS candidate for 2027.",
+  title: "Prashant Chandra | AI Researcher & Systems Engineer",
+  description: "Computer Science student at AMU (Class of 2027). Specializing in Explainable AI (XAI), Computer Vision, and Deep Learning for Medical Diagnostics.",
+  keywords: ["Machine Learning", "AI Researcher", "Explainable AI", "Computer Vision", "AMU CSE", "German MS Candidate"],
 };
 
 export default function RootLayout({
@@ -24,11 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // 2. ADDED: "scroll-smooth" for nice navigation
     <html lang="en" className="scroll-smooth">
       <body
-        // 3. ADDED: "bg-gray-950 text-white" for the global dark theme
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-slate-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white selection:bg-cyan-500/30 selection:text-cyan-200`}
       >
         {children}
       </body>
