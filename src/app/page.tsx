@@ -231,7 +231,7 @@ export default function Home() {
             <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800">
                <h4 className="text-white font-bold mb-4">Academic Milestones</h4>
                <ul className="space-y-4 text-sm">
-                 <li><b className="text-cyan-300">B.Tech CSE:</b> 7.87 CGPA (Ongoing)</li>
+                 <li><b className="text-cyan-300">B.Tech CSE:</b> 8 CGPA (Ongoing)</li>
                  <li><b className="text-cyan-300">Diploma Engg:</b> College Rank 1 (Gold Medalist Intent)</li>
                  <li><b className="text-cyan-300">Class 10th:</b> 97% (District Topper)</li>
                </ul>
