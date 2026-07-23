@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prashant Chandra | AI Researcher & Systems Engineer",
-  description: "Computer Science student at AMU (Class of 2027). Specializing in Explainable AI (XAI), Computer Vision, and Deep Learning for Medical Diagnostics.",
-  keywords: ["Machine Learning", "AI Researcher", "Explainable AI", "Computer Vision", "AMU CSE", "German MS Candidate"],
+  title: "Prashant Chandra | AI Research & Systems Engineer",
+  description: "Computer Engineering undergraduate at AMU (Class of 2027). Specializing in Agentic AI Systems, Tool Governance, Local RAG, and Decoupled Deep Learning Architectures.",
+  keywords: ["Agentic AI", "LLM Governance", "RAG Systems", "Deep Learning Research", "AMU CSE", "Computer Vision", "XAI"],
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white selection:bg-cyan-500/30 selection:text-cyan-200`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#090D16] text-slate-300 selection:bg-teal-500/30 selection:text-teal-200`}
       >
         {children}
       </body>
