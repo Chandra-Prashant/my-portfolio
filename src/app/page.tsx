@@ -17,6 +17,17 @@ import {
 
 const experienceData = [
   {
+    role: "Research Intern",
+    organization: "Maulana Azad National Institute of Technology (MANIT)",
+    location: "Bhopal, MP · On-site",
+    period: "Jun. 2026",
+    highlights: [
+      "Designed a ~118K-parameter pipeline decoupling artifact denoising from cross-modal fusion, achieving 29.85 dB PSNR, 0.99 SSIM, and real-time 237 FPS inference.",
+      "Implemented an Inverse-Attention Gating Mask to bypass degraded pixels; validated against SOTA baselines on the MSRS dataset."
+    ],
+    techStack: ["PyTorch", "Computer Vision", "Multispectral Fusion", "CUDA", "Python"]
+  },
+  {
     role: "Research Intern (Concurrent, Remote)",
     organization: "RV University (RVU)",
     location: "Bengaluru, Karnataka",
@@ -28,61 +39,92 @@ const experienceData = [
     techStack: ["Python", "NetworkX", "Qdrant", "Ollama", "Mistral-7B", "all-MiniLM"]
   },
   {
-    role: "Research Intern",
-    organization: "Maulana Azad National Institute of Technology (MANIT)",
-    location: "Bhopal, MP",
-    period: "Jun. 2026",
+    role: "AI Intern",
+    organization: "Bodhi Hub",
+    location: "Hybrid",
+    period: "Aug. 2026 – Sep. 2026",
     highlights: [
-      "Designed a ~118K-parameter pipeline decoupling artifact denoising from cross-modal fusion, achieving 31 dB PSNR, 0.99 SSIM, and real-time 238 FPS inference.",
-      "Implemented an Inverse-Attention Gating Mask to bypass degraded pixels; validated against SOTA baselines on the MSRS dataset."
+      "Built the anti-hallucination architecture for an LLM-driven Verra VCS v5.0 audit-automation engine: all regulated numeric calculation lives in an isolated, AI-free domain layer, and generated narrative text is rejected outright if it contains a digit.",
+      "Shipped with 956 backend and 51 frontend tests passing, including a RAG index that strips quantities before indexing so there's nothing for the model to copy from a past client report."
     ],
-    techStack: ["PyTorch", "Computer Vision", "Multispectral Fusion", "CUDA", "Python"]
+    techStack: ["FastAPI", "PostgreSQL/pgvector", "React", "Docker", "Alembic"]
   }
 ];
 
 const publicationsData = [
   {
     title: "Decoupled Dual-Phase Network for Multispectral Image Fusion under Sensor Degradation",
-    authors: "Prashant Chandra, R. K. Thakur, N. Gupta, T. F. Khan",
-    venue: "Published in NPDSM 2026 (MANIT Bhopal), Springer Lecture Notes in Mechanical Engineering (LNME)",
+    authors: "Prashant Chandra, R.K. Thakur, N. Gupta, T.F. Khan",
+    venue: "Published in NPDSM 2026 (MANIT Bhopal), Springer Lecture Notes in Mechanical Engineering (LNME) — selected & presented June 26, 2026",
     status: "Published",
   },
   {
     title: "Robustness-Fairness Gap in Facial Recognition Architectures Under Stressors",
-    authors: "Prashant Chandra, D. Gaur, A. Khan",
-    venue: "Under review, DELCON 2026 (52.5K matching trials across demographic & geometric resilience boundaries)",
+    authors: "Prashant Chandra, D. Gaur, R.K. Thakur, A. Khan",
+    venue: "Accepted, IC3AI 2026, NIT Jalandhar (18–19 Dec. 2026) — 52.5K matching trials across demographic & geometric resilience boundaries",
+    status: "Accepted",
+  },
+  {
+    title: "A Selective Classification Framework for High-Reliability Anomaly Detection in Satellite Telemetry",
+    authors: "Prashant Chandra, A. Khan",
+    venue: "Submitted, UPCON 2026",
+    status: "Under Review",
+  },
+  {
+    title: "Cross-Lingual Stance Detection for Climate Change Discourse in Hindi and Bengali: Comparing Zero-Shot Transfer and Fine-Tuned Multilingual Transformers",
+    authors: "Prashant Chandra, A. Khan",
+    venue: "Submitted, ICACECT 2027",
     status: "Under Review",
   }
 ];
 
 const projectData = [
   {
-    title: "Autonomous Agent Governance Harness",
-    period: "Mar. 2026",
+    title: "Bodhi Hub: Verifiable Audit Automation",
+    period: "Aug. 2026 – Sep. 2026",
     description: [
-      "Built a runtime to intercept and supervise autonomous LLM tool-use in real time, feeding policy-violation context back to the model for closed-loop correction.",
-      "Implemented a first-principles shell-command tokenizer (shlex-based) to defeat injection/bypass attempts; validated with a full pytest suite covering path-traversal and blocked-tool cases."
+      "Built an LLM-driven Verra VCS v5.0 carbon-credit audit engine that is architecturally forbidden from touching a number: all regulated calculation lives in an AI-free domain layer, extraction is schema-guarded, RAG context is number-redacted, and generated narrative is rejected if it contains a digit.",
+      "956 backend and 51 frontend tests passing."
     ],
-    techStack: ["Python", "Google GenAI SDK (Gemini 2.5)", "NetworkX", "pytest", "shlex"],
-    github: "https://github.com/Chandra-Prashant"
+    techStack: ["FastAPI", "PostgreSQL/pgvector", "React", "Docker", "Alembic"],
+    github: "https://github.com/Chandra-Prashant/bodhi-hub-vcs5"
   },
   {
-    title: "MediSight: Explainable AI Medical Diagnostic Platform",
-    period: "Jun. 2025",
+    title: "autoheal-sre: Self-Healing Code Repair Agent",
+    period: "Sep. 2026",
     description: [
-      "Built a diagnostics platform using DenseNet-121 (trained on ChestX-ray14) with Grad-CAM heatmaps for clinical explainability."
+      "Built an agent that fixes failing Python tests using tree-sitter call-graph retrieval and a 4-node LangGraph diagnose→plan→code→verify loop, with every patch verified against the full test suite inside a network-isolated Docker sandbox.",
+      "PR creation is gated behind explicit human approval — a passing patch never ships itself."
     ],
-    techStack: ["Python", "PyTorch", "DenseNet-121", "Grad-CAM", "XAI"],
-    github: "https://github.com/Chandra-Prashant/medisight-xai"
+    techStack: ["Python", "LangGraph", "tree-sitter", "ChromaDB", "Docker", "FastAPI"],
+    github: "https://github.com/Chandra-Prashant/autoheal-sre"
   },
   {
-    title: "XAI Microservices Fraud Detection System",
-    period: "Mar. 2025",
+    title: "Face Bias Study",
+    period: "2026",
     description: [
-      "Engineered a real-time fraud detection microservices pipeline with SHAP-based feature-level attributions for model explainability."
+      "Ran a 52,500-trial fairness audit of three face-verification models across 14 intersectional demographic cohorts under five image stressors; a two-way ANOVA confirmed a statistically significant cohort × stressor interaction."
     ],
-    techStack: ["FastAPI", "SHAP", "Python", "Microservices", "Docker"],
-    github: "https://github.com/Chandra-Prashant"
+    techStack: ["Python", "DeepFace", "statsmodels", "Grad-CAM"],
+    github: "https://github.com/Chandra-Prashant/face-bais-study"
+  },
+  {
+    title: "Lightweight Multispectral Image Fusion",
+    period: "Jun. 2026",
+    description: [
+      "Designed a 117.5K-parameter decoupled denoising + fusion network with an inverse-attention gating layer; 29.85 dB PSNR, 0.99 SSIM, 237 FPS measured directly from the evaluation run."
+    ],
+    techStack: ["PyTorch", "OpenCV", "thop"],
+    github: "https://github.com/Chandra-Prashant/Lightweight-Multispectral-Image-Fusion"
+  },
+  {
+    title: "Malware Log Synthesis for DFIR",
+    period: "Jun. 2026 – Jul. 2026",
+    description: [
+      "Built a local, LLM-assisted malware triage tool: NetworkX causal-graph filtering prunes OS noise before indexing into a local Qdrant store, a local Mistral-7B drafts the triage report, and a hallucination auditor blocks the PDF export if it cites a process not actually in the log."
+    ],
+    techStack: ["Python", "NetworkX", "Qdrant", "Ollama", "Streamlit"],
+    github: "https://github.com/Chandra-Prashant/malware-log-synthesis-dfir"
   }
 ];
 
@@ -264,7 +306,7 @@ export default function Home() {
                     <h4 className="text-sm font-semibold text-slate-200 leading-snug group-hover:text-teal-300">
                       {pub.title}
                     </h4>
-                    <span className={`text-[10px] font-mono px-2.5 py-1 rounded-full font-medium whitespace-nowrap ${pub.status === 'Published' ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-800/60' : 'bg-amber-950/80 text-amber-300 border border-amber-800/60'}`}>
+                    <span className={`text-[10px] font-mono px-2.5 py-1 rounded-full font-medium whitespace-nowrap ${pub.status === 'Published' || pub.status === 'Accepted' ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-800/60' : 'bg-amber-950/80 text-amber-300 border border-amber-800/60'}`}>
                       {pub.status}
                     </span>
                   </div>
