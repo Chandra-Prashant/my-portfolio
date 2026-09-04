@@ -1,36 +1,31 @@
-# My Personal Portfolio
+# Personal Portfolio
 
-This repository contains the code for my personal portfolio website, built with Next.js and Tailwind CSS.
+A single-page portfolio/resume site built with Next.js (App Router) and
+Tailwind, driven entirely by a few typed data arrays at the top of
+`src/app/page.tsx` (`experienceData`, `publicationsData`, `projectData`,
+`skillsData`) rather than a CMS - editing the site means editing those
+arrays directly.
 
-**Live Site:** [**https://my-portfolio.vercel.app**](https://prashant-chandra.vercel.app)
+## What it actually does
 
-## Features
-* Dynamic "Matrix" raining code effect
-* Glassmorphism floating navbar
-* Content sourced from my personal resume
-* Fully responsive for mobile and desktop
+- Five sections (About, Experience, Publications, Projects, Skills)
+  rendered from the data arrays.
+- A scroll listener (`handleScroll`) tracks which section is currently in
+  view and highlights the matching nav item accordingly.
+- Icons via `react-icons/fi`.
 
-## Tech Stack
-* **Framework:** Next.js (App Router)
-* **Language:** TypeScript
-* **Styling:** Tailwind CSS
-* **Deployment:** Vercel
+## Setup
 
-## How to Run Locally
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/Chandra-Prashant/my-portfolio.git](https://github.com/Chandra-Prashant/my-portfolio.git)
-    ```
-2.  Navigate to the directory:
-    ```bash
-    cd my-portfolio
-    ```
-3.  Install dependencies:
-    ```bash
-    npm install
-    ```
-4.  Run the development server:
-    ```bash
-    npm run dev
-    ```
-5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
+```bash
+npm install
+npm run dev
+# http://localhost:3000
+```
+
+## Current state
+
+If you're looking for the "Matrix raining code" background effect
+mentioned in an earlier version of this README - it's not currently in
+`src/app/page.tsx`. Either it got removed at some point or was never
+merged; worth re-adding if it's still wanted, or dropping the claim if
+not.
