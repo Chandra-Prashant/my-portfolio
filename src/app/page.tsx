@@ -28,9 +28,9 @@ const experienceData = [
     techStack: ["PyTorch", "Computer Vision", "Multispectral Fusion", "CUDA", "Python"]
   },
   {
-    role: "Research Intern (Concurrent, Remote)",
+    role: "Research Intern",
     organization: "RV University (RVU)",
-    location: "Bengaluru, Karnataka",
+    location: "Bengaluru, Karnataka · Remote",
     period: "Jun. 2026 – Jul. 2026",
     highlights: [
       "Built a local RAG pipeline (Qdrant vector DB, all-MiniLM-L6-v2 embeddings, Ollama/Mistral-7B) that auto-generates secure threat reports end-to-end.",
@@ -41,7 +41,7 @@ const experienceData = [
   {
     role: "AI Intern",
     organization: "Bodhi Hub",
-    location: "Hybrid",
+    location: "Punjab · Hybrid",
     period: "Aug. 2026 – Sep. 2026",
     highlights: [
       "Built the anti-hallucination architecture for an LLM-driven Verra VCS v5.0 audit-automation engine: all regulated numeric calculation lives in an isolated, AI-free domain layer, and generated narrative text is rejected outright if it contains a digit.",
